@@ -21,7 +21,7 @@ Personal Tagalog-learning web app (React 19 + Vite, plain CSS). No backend; prog
 
 ## Rules
 - The owner handles ALL git/GitHub operations. Do not run git commands, commit, push, or deploy.
-- Do not create a development log (e.g. DEVELOPMENT_LOG.md). The owner writes their own.
+- `DEVELOPMENT_LOG.md` is kept by Claude Code at the owner's request: add dated, factual entries for notable changes. Never invent history or write the owner's personal reflections.
 - Keep code beginner-readable: short comments explaining *why*, no unnecessary dependencies.
 - Language content: never present uncertain Tagalog as fact. Add a `verify` note instead. Pronunciation guides use CAPS for the stressed syllable.
 - Phrase/conversation `id`s are persisted in users' progress. Don't rename them.
