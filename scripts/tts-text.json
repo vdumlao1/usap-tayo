@@ -1,0 +1,418 @@
+[
+  {
+    "key": "phrase:kumusta-ka",
+    "text": "Kumusta ka?"
+  },
+  {
+    "key": "phrase:kumusta-po-kayo",
+    "text": "Kumusta po kayo?"
+  },
+  {
+    "key": "phrase:mabuti-naman",
+    "text": "Mabuti naman po."
+  },
+  {
+    "key": "phrase:magandang-umaga",
+    "text": "Magandang umaga po."
+  },
+  {
+    "key": "phrase:mano-po",
+    "text": "Mano po."
+  },
+  {
+    "key": "phrase:ako-si",
+    "text": "Ako si Ana."
+  },
+  {
+    "key": "phrase:ingat",
+    "text": "Ingat po kayo!"
+  },
+  {
+    "key": "phrase:nanay-tatay",
+    "text": "Si Nanay at si Tatay."
+  },
+  {
+    "key": "phrase:lola-lolo",
+    "text": "Si Lola at si Lolo."
+  },
+  {
+    "key": "phrase:tita-tito",
+    "text": "Si Tita at si Tito."
+  },
+  {
+    "key": "phrase:ate-kuya",
+    "text": "Si Ate at si Kuya."
+  },
+  {
+    "key": "phrase:anak-apo",
+    "text": "Ang anak ko at ang apo ko."
+  },
+  {
+    "key": "phrase:pinsan",
+    "text": "Ang pinsan ko."
+  },
+  {
+    "key": "phrase:mahal-kita",
+    "text": "Mahal kita."
+  },
+  {
+    "key": "phrase:salamat",
+    "text": "Salamat po."
+  },
+  {
+    "key": "phrase:walang-anuman",
+    "text": "Walang anuman."
+  },
+  {
+    "key": "phrase:oo-opo",
+    "text": "Oo. Opo."
+  },
+  {
+    "key": "phrase:hindi",
+    "text": "Hindi po."
+  },
+  {
+    "key": "phrase:sige",
+    "text": "Sige po."
+  },
+  {
+    "key": "phrase:pasensya-na",
+    "text": "Pasensya na po."
+  },
+  {
+    "key": "phrase:okay-lang",
+    "text": "Okay lang."
+  },
+  {
+    "key": "phrase:kumain-ka-na",
+    "text": "Kumain ka na?"
+  },
+  {
+    "key": "phrase:hindi-ko-maintindihan",
+    "text": "Hindi ko po maintindihan."
+  },
+  {
+    "key": "phrase:pakiulit-po",
+    "text": "Pakiulit po."
+  },
+  {
+    "key": "phrase:pakibagalan",
+    "text": "Pakibagalan lang po."
+  },
+  {
+    "key": "phrase:ano-ibig-sabihin",
+    "text": "Ano po ang ibig sabihin ng kilig?"
+  },
+  {
+    "key": "phrase:saan-ka-pupunta",
+    "text": "Saan ka pupunta?"
+  },
+  {
+    "key": "phrase:nasaan-po-ang",
+    "text": "Nasaan po ang susi?"
+  },
+  {
+    "key": "phrase:kain-tayo",
+    "text": "Kain tayo!"
+  },
+  {
+    "key": "phrase:gutom-na-ako",
+    "text": "Gutom na ako."
+  },
+  {
+    "key": "phrase:busog-na-ako",
+    "text": "Busog na po ako."
+  },
+  {
+    "key": "phrase:ang-sarap",
+    "text": "Ang sarap!"
+  },
+  {
+    "key": "phrase:pakiabot",
+    "text": "Pakiabot po ng kanin."
+  },
+  {
+    "key": "phrase:ano-ulam",
+    "text": "Ano’ng ulam?"
+  },
+  {
+    "key": "phrase:masaya-ako",
+    "text": "Masaya ako."
+  },
+  {
+    "key": "phrase:pagod-na-ako",
+    "text": "Pagod na ako."
+  },
+  {
+    "key": "phrase:kinakabahan",
+    "text": "Kinakabahan ako."
+  },
+  {
+    "key": "phrase:nakakahiya",
+    "text": "Nakakahiya."
+  },
+  {
+    "key": "phrase:salamat-sa-lahat",
+    "text": "Salamat po sa lahat."
+  },
+  {
+    "key": "phrase:nandito-na-ako",
+    "text": "Nandito na ako!"
+  },
+  {
+    "key": "phrase:ako-na",
+    "text": "Ako na po."
+  },
+  {
+    "key": "phrase:tulungan-kita",
+    "text": "Tulungan kita."
+  },
+  {
+    "key": "phrase:matutulog-na-ako",
+    "text": "Matutulog na ako."
+  },
+  {
+    "key": "phrase:aalis-na-ako",
+    "text": "Aalis na po ako."
+  },
+  {
+    "key": "phrase:kain-ka-pa",
+    "text": "Kain ka pa."
+  },
+  {
+    "key": "phrase:grabe",
+    "text": "Grabe naman!"
+  },
+  {
+    "key": "phrase:ay-naku",
+    "text": "Ay naku!"
+  },
+  {
+    "key": "phrase:talaga",
+    "text": "Talaga po?"
+  },
+  {
+    "key": "phrase:bahala-na",
+    "text": "Bahala na."
+  },
+  {
+    "key": "phrase:sana-all",
+    "text": "Sana all."
+  },
+  {
+    "key": "phrase:charot",
+    "text": "Charot!"
+  },
+  {
+    "key": "phrase:miss-na-kita",
+    "text": "Miss na kita."
+  },
+  {
+    "key": "phrase:nag-enjoy-ako",
+    "text": "Nag-enjoy ako!"
+  },
+  {
+    "key": "phrase:magre-review",
+    "text": "Magre-review muna ako."
+  },
+  {
+    "key": "phrase:na-traffic",
+    "text": "Na-traffic ako."
+  },
+  {
+    "key": "phrase:gets-ko-na",
+    "text": "Gets ko na."
+  },
+  {
+    "key": "line:greeting-lola:0",
+    "text": "Mano po, Lola."
+  },
+  {
+    "key": "line:greeting-lola:1",
+    "text": "Kaawaan ka ng Diyos. Kumusta ka, apo?"
+  },
+  {
+    "key": "line:greeting-lola:2",
+    "text": "Mabuti naman po. Kayo po, kumusta?"
+  },
+  {
+    "key": "line:greeting-lola:3",
+    "text": "Eto, medyo pagod, pero masaya ako na nandito ka."
+  },
+  {
+    "key": "line:greeting-lola:4",
+    "text": "Na-miss ko po kayo."
+  },
+  {
+    "key": "line:greeting-lola:5",
+    "text": "Na-miss din kita. Kumain ka na ba? May pansit sa kusina."
+  },
+  {
+    "key": "line:how-was-your-day:0",
+    "text": "Ma, nandito na po ako!"
+  },
+  {
+    "key": "line:how-was-your-day:1",
+    "text": "O, anak! Kumusta ang araw mo?"
+  },
+  {
+    "key": "line:how-was-your-day:2",
+    "text": "Okay lang po. Medyo pagod lang."
+  },
+  {
+    "key": "line:how-was-your-day:3",
+    "text": "Bakit? Ano’ng nangyari?"
+  },
+  {
+    "key": "line:how-was-your-day:4",
+    "text": "Ang dami pong ginawa sa school. May exam kami bukas."
+  },
+  {
+    "key": "line:how-was-your-day:5",
+    "text": "Kaya mo ’yan. Magpahinga ka muna, tapos kain tayo."
+  },
+  {
+    "key": "line:how-was-your-day:6",
+    "text": "Sige po. Salamat, Ma."
+  },
+  {
+    "key": "line:dinner-table:0",
+    "text": "Kain na tayo! Handa na ang pagkain."
+  },
+  {
+    "key": "line:dinner-table:1",
+    "text": "Ano po’ng ulam?"
+  },
+  {
+    "key": "line:dinner-table:2",
+    "text": "Adobong manok at sinigang na baboy."
+  },
+  {
+    "key": "line:dinner-table:3",
+    "text": "Ang sarap! Pakiabot po ng kanin."
+  },
+  {
+    "key": "line:dinner-table:4",
+    "text": "Eto. Kain ka pa, marami pa."
+  },
+  {
+    "key": "line:dinner-table:5",
+    "text": "Busog na po ako. Ang sarap po ng luto n’yo!"
+  },
+  {
+    "key": "line:asking-tito:0",
+    "text": "Tito, puwede po bang magtanong?"
+  },
+  {
+    "key": "line:asking-tito:1",
+    "text": "Oo naman. Ano ’yon?"
+  },
+  {
+    "key": "line:asking-tito:2",
+    "text": "Saan po kayo lumaki?"
+  },
+  {
+    "key": "line:asking-tito:3",
+    "text": "Sa probinsya, sa Batangas. Doon din lumaki ang lola mo."
+  },
+  {
+    "key": "line:asking-tito:4",
+    "text": "Talaga po? Gusto ko pong pumunta doon balang araw."
+  },
+  {
+    "key": "line:asking-tito:5",
+    "text": "Sige, isasama ka namin sa susunod na uwi."
+  },
+  {
+    "key": "line:i-dont-understand:0",
+    "text": "Anak, pakikuha nga ’yung sandok sa may lababo."
+  },
+  {
+    "key": "line:i-dont-understand:1",
+    "text": "Pasensya na po, hindi ko po naintindihan. Ano po ’yung “sandok”?"
+  },
+  {
+    "key": "line:i-dont-understand:2",
+    "text": "’Yung pangsandok ng kanin o sabaw. Ladle!"
+  },
+  {
+    "key": "line:i-dont-understand:3",
+    "text": "Ah, gets ko na po! Eto po."
+  },
+  {
+    "key": "line:i-dont-understand:4",
+    "text": "Salamat, anak. Ang galing mo na mag-Tagalog!"
+  },
+  {
+    "key": "line:speak-slowly:0",
+    "text": "Apo, sabihin mo sa nanay mo, pupunta kami bukas ng hapon pagkatapos ng misa."
+  },
+  {
+    "key": "line:speak-slowly:1",
+    "text": "Lolo, pakibagalan lang po. Hindi ko po nakuha lahat."
+  },
+  {
+    "key": "line:speak-slowly:2",
+    "text": "Ay, sige. Pupunta… kami… bukas… ng hapon."
+  },
+  {
+    "key": "line:speak-slowly:3",
+    "text": "Pagkatapos po ng ano?"
+  },
+  {
+    "key": "line:speak-slowly:4",
+    "text": "Ng misa. Pagkatapos magsimba."
+  },
+  {
+    "key": "line:speak-slowly:5",
+    "text": "Ah, sige po. Sasabihin ko po kay Nanay."
+  },
+  {
+    "key": "line:weekend-plans:0",
+    "text": "Uy, ano’ng plano mo this weekend?"
+  },
+  {
+    "key": "line:weekend-plans:1",
+    "text": "Wala pa. Ikaw?"
+  },
+  {
+    "key": "line:weekend-plans:2",
+    "text": "Mag-mall kami nina Ate sa Sabado. Sama ka?"
+  },
+  {
+    "key": "line:weekend-plans:3",
+    "text": "Sige! Anong oras?"
+  },
+  {
+    "key": "line:weekend-plans:4",
+    "text": "Mga alas-dos. Susunduin ka namin."
+  },
+  {
+    "key": "line:weekend-plans:5",
+    "text": "Game! Magre-review muna ako sa umaga. Text mo lang ako."
+  },
+  {
+    "key": "line:thank-you-mom:0",
+    "text": "Ma, salamat po sa lahat."
+  },
+  {
+    "key": "line:thank-you-mom:1",
+    "text": "Bakit bigla kang nagpapasalamat?"
+  },
+  {
+    "key": "line:thank-you-mom:2",
+    "text": "Wala lang po. Alam ko pong lagi kayong pagod para sa amin."
+  },
+  {
+    "key": "line:thank-you-mom:3",
+    "text": "Ay, anak. Para sa inyo naman lahat ’to."
+  },
+  {
+    "key": "line:thank-you-mom:4",
+    "text": "Mahal na mahal ko po kayo."
+  },
+  {
+    "key": "line:thank-you-mom:5",
+    "text": "Mahal din kita, anak."
+  }
+]

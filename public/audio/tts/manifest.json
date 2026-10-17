@@ -1,0 +1,730 @@
+{
+  "phrase:kumusta-ka": {
+    "file": "phrase--kumusta-ka.m4a",
+    "text": "Kumusta ka?",
+    "score": 0.94,
+    "quality": "ok",
+    "heard": "Kumusaka!"
+  },
+  "phrase:kumusta-po-kayo": {
+    "file": "phrase--kumusta-po-kayo.m4a",
+    "text": "Kumusta po kayo?",
+    "score": 1.0,
+    "quality": "ok",
+    "heard": "Kumusta po kayo?"
+  },
+  "phrase:mabuti-naman": {
+    "file": "phrase--mabuti-naman.m4a",
+    "text": "Mabuti naman po.",
+    "score": 1.0,
+    "quality": "ok",
+    "heard": "Mabuti naman po."
+  },
+  "phrase:magandang-umaga": {
+    "file": "phrase--magandang-umaga.m4a",
+    "text": "Magandang umaga po.",
+    "score": 0.94,
+    "quality": "ok",
+    "heard": "Magandang umana po."
+  },
+  "phrase:mano-po": {
+    "file": "phrase--mano-po.m4a",
+    "text": "Mano po.",
+    "score": 0.73,
+    "quality": "ok",
+    "heard": "Ano ho?"
+  },
+  "phrase:ako-si": {
+    "file": "phrase--ako-si.m4a",
+    "text": "Ako si Ana.",
+    "score": 1.0,
+    "quality": "ok",
+    "heard": "Akosiana."
+  },
+  "phrase:ingat": {
+    "file": "phrase--ingat.m4a",
+    "text": "Ingat po kayo!",
+    "score": 0.91,
+    "quality": "ok",
+    "heard": "Inkat po kayo."
+  },
+  "phrase:nanay-tatay": {
+    "file": "phrase--nanay-tatay.m4a",
+    "text": "Si Nanay at si Tatay.",
+    "score": 1.0,
+    "quality": "ok",
+    "heard": "Sinanay at si Tatay."
+  },
+  "phrase:lola-lolo": {
+    "file": "phrase--lola-lolo.m4a",
+    "text": "Si Lola at si Lolo.",
+    "score": 0.97,
+    "quality": "ok",
+    "heard": "Silo lahat silolo."
+  },
+  "phrase:tita-tito": {
+    "file": "phrase--tita-tito.m4a",
+    "text": "Si Tita at si Tito.",
+    "score": 1.0,
+    "quality": "ok",
+    "heard": "sitita at sitito."
+  },
+  "phrase:ate-kuya": {
+    "file": "phrase--ate-kuya.m4a",
+    "text": "Si Ate at si Kuya.",
+    "score": 0.92,
+    "quality": "ok",
+    "heard": "Si ate at siguya."
+  },
+  "phrase:anak-apo": {
+    "file": "phrase--anak-apo.m4a",
+    "text": "Ang anak ko at ang apo ko.",
+    "score": 0.97,
+    "quality": "ok",
+    "heard": "Angan ako at ang apoko."
+  },
+  "phrase:pinsan": {
+    "file": "phrase--pinsan.m4a",
+    "text": "Ang pinsan ko.",
+    "score": 1.0,
+    "quality": "ok",
+    "heard": "Ang pinsan ko."
+  },
+  "phrase:mahal-kita": {
+    "file": "phrase--mahal-kita.m4a",
+    "text": "Mahal kita.",
+    "score": 1.0,
+    "quality": "ok",
+    "heard": "Mahal kita."
+  },
+  "phrase:salamat": {
+    "file": "phrase--salamat.m4a",
+    "text": "Salamat po.",
+    "score": 1.0,
+    "quality": "ok",
+    "heard": "Salamat po."
+  },
+  "phrase:walang-anuman": {
+    "file": "phrase--walang-anuman.m4a",
+    "text": "Walang anuman.",
+    "score": 1.0,
+    "quality": "ok",
+    "heard": "Walanganuman."
+  },
+  "phrase:oo-opo": {
+    "file": "phrase--oo-opo.m4a",
+    "text": "Oo. Opo.",
+    "score": 0.22,
+    "quality": "low",
+    "heard": "Daro!"
+  },
+  "phrase:hindi": {
+    "file": "phrase--hindi.m4a",
+    "text": "Hindi po.",
+    "score": 1.0,
+    "quality": "ok",
+    "heard": "Hindi po."
+  },
+  "phrase:sige": {
+    "file": "phrase--sige.m4a",
+    "text": "Sige po.",
+    "score": 1.0,
+    "quality": "ok",
+    "heard": "Sige po."
+  },
+  "phrase:pasensya-na": {
+    "file": "phrase--pasensya-na.m4a",
+    "text": "Pasensya na po.",
+    "score": 0.96,
+    "quality": "ok",
+    "heard": "Pasyensya na po."
+  },
+  "phrase:okay-lang": {
+    "file": "phrase--okay-lang.m4a",
+    "text": "Okay lang.",
+    "score": 1.0,
+    "quality": "ok",
+    "heard": "Okay lang!"
+  },
+  "phrase:kumain-ka-na": {
+    "file": "phrase--kumain-ka-na.m4a",
+    "text": "Kumain ka na?",
+    "score": 1.0,
+    "quality": "ok",
+    "heard": "Kumain ka na?"
+  },
+  "phrase:hindi-ko-maintindihan": {
+    "file": "phrase--hindi-ko-maintindihan.m4a",
+    "text": "Hindi ko po maintindihan.",
+    "score": 1.0,
+    "quality": "ok",
+    "heard": "Hindi ko po maintindihan."
+  },
+  "phrase:pakiulit-po": {
+    "file": "phrase--pakiulit-po.m4a",
+    "text": "Pakiulit po.",
+    "score": 0.95,
+    "quality": "ok",
+    "heard": "Pakiyulit po!"
+  },
+  "phrase:pakibagalan": {
+    "file": "phrase--pakibagalan.m4a",
+    "text": "Pakibagalan lang po.",
+    "score": 0.94,
+    "quality": "ok",
+    "heard": "Pahibagalan lang po."
+  },
+  "phrase:ano-ibig-sabihin": {
+    "file": "phrase--ano-ibig-sabihin.m4a",
+    "text": "Ano po ang ibig sabihin ng kilig?",
+    "score": 1.0,
+    "quality": "ok",
+    "heard": "Ano po ang ibig sabihin ng Kilig?"
+  },
+  "phrase:saan-ka-pupunta": {
+    "file": "phrase--saan-ka-pupunta.m4a",
+    "text": "Saan ka pupunta?",
+    "score": 0.92,
+    "quality": "ok",
+    "heard": "Sangka pupunta."
+  },
+  "phrase:nasaan-po-ang": {
+    "file": "phrase--nasaan-po-ang.m4a",
+    "text": "Nasaan po ang susi?",
+    "score": 0.93,
+    "quality": "ok",
+    "heard": "Nasan po ang Susie?"
+  },
+  "phrase:kain-tayo": {
+    "file": "phrase--kain-tayo.m4a",
+    "text": "Kain tayo!",
+    "score": 1.0,
+    "quality": "ok",
+    "heard": "Kain tayo."
+  },
+  "phrase:gutom-na-ako": {
+    "file": "phrase--gutom-na-ako.m4a",
+    "text": "Gutom na ako.",
+    "score": 1.0,
+    "quality": "ok",
+    "heard": "Gutom na ako."
+  },
+  "phrase:busog-na-ako": {
+    "file": "phrase--busog-na-ako.m4a",
+    "text": "Busog na po ako.",
+    "score": 0.83,
+    "quality": "ok",
+    "heard": "Gusto na po ako."
+  },
+  "phrase:ang-sarap": {
+    "file": "phrase--ang-sarap.m4a",
+    "text": "Ang sarap!",
+    "score": 0.86,
+    "quality": "ok",
+    "heard": "Asarap."
+  },
+  "phrase:pakiabot": {
+    "file": "phrase--pakiabot.m4a",
+    "text": "Pakiabot po ng kanin.",
+    "score": 0.91,
+    "quality": "ok",
+    "heard": "Pakiabot ko ng kaning."
+  },
+  "phrase:ano-ulam": {
+    "file": "phrase--ano-ulam.m4a",
+    "text": "Ano’ng ulam?",
+    "score": 0.75,
+    "quality": "ok",
+    "heard": "Ano ulan?"
+  },
+  "phrase:masaya-ako": {
+    "file": "phrase--masaya-ako.m4a",
+    "text": "Masaya ako.",
+    "score": 1.0,
+    "quality": "ok",
+    "heard": "Masaya ako."
+  },
+  "phrase:pagod-na-ako": {
+    "file": "phrase--pagod-na-ako.m4a",
+    "text": "Pagod na ako.",
+    "score": 1.0,
+    "quality": "ok",
+    "heard": "Pagod na ako."
+  },
+  "phrase:kinakabahan": {
+    "file": "phrase--kinakabahan.m4a",
+    "text": "Kinakabahan ako.",
+    "score": 1.0,
+    "quality": "ok",
+    "heard": "Kinakabahan ako."
+  },
+  "phrase:nakakahiya": {
+    "file": "phrase--nakakahiya.m4a",
+    "text": "Nakakahiya.",
+    "score": 0.95,
+    "quality": "ok",
+    "heard": "Nakakahiyan."
+  },
+  "phrase:salamat-sa-lahat": {
+    "file": "phrase--salamat-sa-lahat.m4a",
+    "text": "Salamat po sa lahat.",
+    "score": 1.0,
+    "quality": "ok",
+    "heard": "Salamat po sa lahat."
+  },
+  "phrase:nandito-na-ako": {
+    "file": "phrase--nandito-na-ako.m4a",
+    "text": "Nandito na ako!",
+    "score": 1.0,
+    "quality": "ok",
+    "heard": "Nan dito na ako."
+  },
+  "phrase:ako-na": {
+    "file": "phrase--ako-na.m4a",
+    "text": "Ako na po.",
+    "score": 0.77,
+    "quality": "ok",
+    "heard": "Hanapo."
+  },
+  "phrase:tulungan-kita": {
+    "file": "phrase--tulungan-kita.m4a",
+    "text": "Tulungan kita.",
+    "score": 0.96,
+    "quality": "ok",
+    "heard": "Ulungan kita."
+  },
+  "phrase:matutulog-na-ako": {
+    "file": "phrase--matutulog-na-ako.m4a",
+    "text": "Matutulog na ako.",
+    "score": 1.0,
+    "quality": "ok",
+    "heard": "Matutulog na ako."
+  },
+  "phrase:aalis-na-ako": {
+    "file": "phrase--aalis-na-ako.m4a",
+    "text": "Aalis na po ako.",
+    "score": 0.92,
+    "quality": "ok",
+    "heard": "Kalis na po ako."
+  },
+  "phrase:kain-ka-pa": {
+    "file": "phrase--kain-ka-pa.m4a",
+    "text": "Kain ka pa.",
+    "score": 1.0,
+    "quality": "ok",
+    "heard": "Kain kapa."
+  },
+  "phrase:grabe": {
+    "file": "phrase--grabe.m4a",
+    "text": "Grabe naman!",
+    "score": 0.84,
+    "quality": "ok",
+    "heard": "Gabi naman."
+  },
+  "phrase:ay-naku": {
+    "file": "phrase--ay-naku.m4a",
+    "text": "Ay naku!",
+    "score": 0.77,
+    "quality": "ok",
+    "heard": "Ayan ako."
+  },
+  "phrase:talaga": {
+    "file": "phrase--talaga.m4a",
+    "text": "Talaga po?",
+    "score": 0.88,
+    "quality": "ok",
+    "heard": "Kalaga po."
+  },
+  "phrase:bahala-na": {
+    "file": "phrase--bahala-na.m4a",
+    "text": "Bahala na.",
+    "score": 1.0,
+    "quality": "ok",
+    "heard": "Bahalana."
+  },
+  "phrase:sana-all": {
+    "file": "phrase--sana-all.m4a",
+    "text": "Sana all.",
+    "score": 0.88,
+    "quality": "ok",
+    "heard": "Sanaalila."
+  },
+  "phrase:charot": {
+    "file": "phrase--charot.m4a",
+    "text": "Charot!",
+    "score": 0.73,
+    "quality": "ok",
+    "heard": "Harod."
+  },
+  "phrase:miss-na-kita": {
+    "file": "phrase--miss-na-kita.m4a",
+    "text": "Miss na kita.",
+    "score": 0.95,
+    "quality": "ok",
+    "heard": "Mis nakita."
+  },
+  "phrase:nag-enjoy-ako": {
+    "file": "phrase--nag-enjoy-ako.m4a",
+    "text": "Nag-enjoy ako!",
+    "score": 0.87,
+    "quality": "ok",
+    "heard": "Nag-enghoy ako."
+  },
+  "phrase:magre-review": {
+    "file": "phrase--magre-review.m4a",
+    "text": "Magre-review muna ako.",
+    "score": 0.94,
+    "quality": "ok",
+    "heard": "Magre-review mo na ako."
+  },
+  "phrase:na-traffic": {
+    "file": "phrase--na-traffic.m4a",
+    "text": "Na-traffic ako.",
+    "score": 0.8,
+    "quality": "ok",
+    "heard": "Natras pics ako."
+  },
+  "phrase:gets-ko-na": {
+    "file": "phrase--gets-ko-na.m4a",
+    "text": "Gets ko na.",
+    "score": 0.88,
+    "quality": "ok",
+    "heard": "Detskona."
+  },
+  "line:greeting-lola:0": {
+    "file": "line--greeting-lola--0.m4a",
+    "text": "Mano po, Lola.",
+    "score": 0.56,
+    "quality": "low",
+    "heard": "Nag-ololi."
+  },
+  "line:greeting-lola:1": {
+    "file": "line--greeting-lola--1.m4a",
+    "text": "Kaawaan ka ng Diyos. Kumusta ka, apo?",
+    "score": 0.9,
+    "quality": "ok",
+    "heard": "Kawan ka ng dios. | Kumusta ka apo."
+  },
+  "line:greeting-lola:2": {
+    "file": "line--greeting-lola--2.m4a",
+    "text": "Mabuti naman po. Kayo po, kumusta?",
+    "score": 0.73,
+    "quality": "ok",
+    "heard": "Mabuti naman po. | Kayo ho. | Kusa."
+  },
+  "line:greeting-lola:3": {
+    "file": "line--greeting-lola--3.m4a",
+    "text": "Eto, medyo pagod, pero masaya ako na nandito ka.",
+    "score": 0.96,
+    "quality": "ok",
+    "heard": "Tumedyo pagod, pero masaya ako na nandito ka."
+  },
+  "line:greeting-lola:4": {
+    "file": "line--greeting-lola--4.m4a",
+    "text": "Na-miss ko po kayo.",
+    "score": 0.96,
+    "quality": "ok",
+    "heard": "Namis ko po kayo."
+  },
+  "line:greeting-lola:5": {
+    "file": "line--greeting-lola--5.m4a",
+    "text": "Na-miss din kita. Kumain ka na ba? May pansit sa kusina.",
+    "score": 0.94,
+    "quality": "ok",
+    "heard": "Namis din kita. | Kumain ka naba? | May pancit sa kusina."
+  },
+  "line:how-was-your-day:0": {
+    "file": "line--how-was-your-day--0.m4a",
+    "text": "Ma, nandito na po ako!",
+    "score": 1.0,
+    "quality": "ok",
+    "heard": "Manan dito na po ako."
+  },
+  "line:how-was-your-day:1": {
+    "file": "line--how-was-your-day--1.m4a",
+    "text": "O, anak! Kumusta ang araw mo?",
+    "score": 0.8,
+    "quality": "ok",
+    "heard": "Banak. | Kumusta ang araw mo?"
+  },
+  "line:how-was-your-day:2": {
+    "file": "line--how-was-your-day--2.m4a",
+    "text": "Okay lang po. Medyo pagod lang.",
+    "score": 0.87,
+    "quality": "ok",
+    "heard": "Okay lang po. | Nde diyo pagod lang?"
+  },
+  "line:how-was-your-day:3": {
+    "file": "line--how-was-your-day--3.m4a",
+    "text": "Bakit? Ano’ng nangyari?",
+    "score": 0.94,
+    "quality": "ok",
+    "heard": "Takit anong nangyari."
+  },
+  "line:how-was-your-day:4": {
+    "file": "line--how-was-your-day--4.m4a",
+    "text": "Ang dami pong ginawa sa school. May exam kami bukas.",
+    "score": 0.88,
+    "quality": "ok",
+    "heard": "Ang nami pungginawa sa school. | May esam kami buhas."
+  },
+  "line:how-was-your-day:5": {
+    "file": "line--how-was-your-day--5.m4a",
+    "text": "Kaya mo ’yan. Magpahinga ka muna, tapos kain tayo.",
+    "score": 0.88,
+    "quality": "ok",
+    "heard": "Kaya mo yan. | Magpahina ka muna. | Apuskain tayo."
+  },
+  "line:how-was-your-day:6": {
+    "file": "line--how-was-your-day--6.m4a",
+    "text": "Sige po. Salamat, Ma.",
+    "score": 0.89,
+    "quality": "ok",
+    "heard": "Sige po. | Salamat mo."
+  },
+  "line:dinner-table:0": {
+    "file": "line--dinner-table--0.m4a",
+    "text": "Kain na tayo! Handa na ang pagkain.",
+    "score": 0.94,
+    "quality": "ok",
+    "heard": "Kainatayo. | Hanna na ang pagkain?"
+  },
+  "line:dinner-table:1": {
+    "file": "line--dinner-table--1.m4a",
+    "text": "Ano po’ng ulam?",
+    "score": 0.86,
+    "quality": "ok",
+    "heard": "Nopong ulan."
+  },
+  "line:dinner-table:2": {
+    "file": "line--dinner-table--2.m4a",
+    "text": "Adobong manok at sinigang na baboy.",
+    "score": 0.96,
+    "quality": "ok",
+    "heard": "Adobong manok at siniga na baboy."
+  },
+  "line:dinner-table:3": {
+    "file": "line--dinner-table--3.m4a",
+    "text": "Ang sarap! Pakiabot po ng kanin.",
+    "score": 0.86,
+    "quality": "ok",
+    "heard": "Asarap. | Pakiabot ko ng kaning."
+  },
+  "line:dinner-table:4": {
+    "file": "line--dinner-table--4.m4a",
+    "text": "Eto. Kain ka pa, marami pa.",
+    "score": 0.95,
+    "quality": "ok",
+    "heard": "Ito ka'in ka pa marami pa."
+  },
+  "line:dinner-table:5": {
+    "file": "line--dinner-table--5.m4a",
+    "text": "Busog na po ako. Ang sarap po ng luto n’yo!",
+    "score": 0.83,
+    "quality": "ok",
+    "heard": "Gusto na po ako. | Ang sarap po na luto nyo."
+  },
+  "line:asking-tito:0": {
+    "file": "line--asking-tito--0.m4a",
+    "text": "Tito, puwede po bang magtanong?",
+    "score": 0.94,
+    "quality": "ok",
+    "heard": "Ito pwede po bang magtanon?"
+  },
+  "line:asking-tito:1": {
+    "file": "line--asking-tito--1.m4a",
+    "text": "Oo naman. Ano ’yon?",
+    "score": 0.73,
+    "quality": "ok",
+    "heard": "Konaman! | Noyan."
+  },
+  "line:asking-tito:2": {
+    "file": "line--asking-tito--2.m4a",
+    "text": "Saan po kayo lumaki?",
+    "score": 1.0,
+    "quality": "ok",
+    "heard": "Saan po kayo lumaki?"
+  },
+  "line:asking-tito:3": {
+    "file": "line--asking-tito--3.m4a",
+    "text": "Sa probinsya, sa Batangas. Doon din lumaki ang lola mo.",
+    "score": 0.87,
+    "quality": "ok",
+    "heard": "Sabrobin siya. | Sanatangas. | Dondin lumaki ang lulamo."
+  },
+  "line:asking-tito:4": {
+    "file": "line--asking-tito--4.m4a",
+    "text": "Talaga po? Gusto ko pong pumunta doon balang araw.",
+    "score": 0.88,
+    "quality": "ok",
+    "heard": "Kalaga po. | Gusto ko pang pumunta doon balang araw."
+  },
+  "line:asking-tito:5": {
+    "file": "line--asking-tito--5.m4a",
+    "text": "Sige, isasama ka namin sa susunod na uwi.",
+    "score": 0.98,
+    "quality": "ok",
+    "heard": "Sige, isasamakan namin sa susunod na uwi."
+  },
+  "line:i-dont-understand:0": {
+    "file": "line--i-dont-understand--0.m4a",
+    "text": "Anak, pakikuha nga ’yung sandok sa may lababo.",
+    "score": 0.75,
+    "quality": "ok",
+    "heard": "Na, na. | Pakikuhang agyong sandok sa Maylababo."
+  },
+  "line:i-dont-understand:1": {
+    "file": "line--i-dont-understand--1.m4a",
+    "text": "Pasensya na po, hindi ko po naintindihan. Ano po ’yung “sandok”?",
+    "score": 0.95,
+    "quality": "ok",
+    "heard": "Pasyensya na po. | Hindi ko ko na intindihan. | Ano po yung sando?"
+  },
+  "line:i-dont-understand:2": {
+    "file": "line--i-dont-understand--2.m4a",
+    "text": "’Yung pangsandok ng kanin o sabaw. Ladle!",
+    "score": 0.94,
+    "quality": "ok",
+    "heard": "Yung pangsandok ng kaning Osabao Ladley."
+  },
+  "line:i-dont-understand:3": {
+    "file": "line--i-dont-understand--3.m4a",
+    "text": "Ah, gets ko na po! Eto po.",
+    "score": 0.8,
+    "quality": "ok",
+    "heard": "Bah! | Gatsuko na po. | Ito po."
+  },
+  "line:i-dont-understand:4": {
+    "file": "line--i-dont-understand--4.m4a",
+    "text": "Salamat, anak. Ang galing mo na mag-Tagalog!",
+    "score": 0.75,
+    "quality": "ok",
+    "heard": "Salamat. | Na, na. | Ang galing mo na magtagalo."
+  },
+  "line:speak-slowly:0": {
+    "file": "line--speak-slowly--0.m4a",
+    "text": "Apo, sabihin mo sa nanay mo, pupunta kami bukas ng hapon pagkatapos ng misa.",
+    "score": 0.97,
+    "quality": "ok",
+    "heard": "Apos sabihin mo sanay mo, pupunta kami bukas ng hapon. Pagkatapos ng missa."
+  },
+  "line:speak-slowly:1": {
+    "file": "line--speak-slowly--1.m4a",
+    "text": "Lolo, pakibagalan lang po. Hindi ko po nakuha lahat.",
+    "score": 1.0,
+    "quality": "ok",
+    "heard": "Lolo pa kibagalan lang po. | Hindi ko po nakuhalahat."
+  },
+  "line:speak-slowly:2": {
+    "file": "line--speak-slowly--2.m4a",
+    "text": "Ay, sige. Pupunta… kami… bukas… ng hapon.",
+    "score": 0.36,
+    "quality": "low",
+    "heard": "Isini. | Pupunta kami bukas ng hapun."
+  },
+  "line:speak-slowly:3": {
+    "file": "line--speak-slowly--3.m4a",
+    "text": "Pagkatapos po ng ano?",
+    "score": 0.97,
+    "quality": "ok",
+    "heard": "Pagkatapos po ang ano."
+  },
+  "line:speak-slowly:4": {
+    "file": "line--speak-slowly--4.m4a",
+    "text": "Ng misa. Pagkatapos magsimba.",
+    "score": 0.62,
+    "quality": "low",
+    "heard": "Numigya. | Pagkatapos magsimba."
+  },
+  "line:speak-slowly:5": {
+    "file": "line--speak-slowly--5.m4a",
+    "text": "Ah, sige po. Sasabihin ko po kay Nanay.",
+    "score": 0.8,
+    "quality": "ok",
+    "heard": "Bah! | Sige po. | Sa sabihin ko po kay nanay."
+  },
+  "line:weekend-plans:0": {
+    "file": "line--weekend-plans--0.m4a",
+    "text": "Uy, ano’ng plano mo this weekend?",
+    "score": 0.94,
+    "quality": "ok",
+    "heard": "O'y anong plano motis weekend?"
+  },
+  "line:weekend-plans:1": {
+    "file": "line--weekend-plans--1.m4a",
+    "text": "Wala pa. Ikaw?",
+    "score": 0.83,
+    "quality": "ok",
+    "heard": "Walata. | Ikaw."
+  },
+  "line:weekend-plans:2": {
+    "file": "line--weekend-plans--2.m4a",
+    "text": "Mag-mall kami nina Ate sa Sabado. Sama ka?",
+    "score": 0.91,
+    "quality": "ok",
+    "heard": "Magmal kamini na ate sa sabado. | Amaka."
+  },
+  "line:weekend-plans:3": {
+    "file": "line--weekend-plans--3.m4a",
+    "text": "Sige! Anong oras?",
+    "score": 1.0,
+    "quality": "ok",
+    "heard": "Sige anong oras?"
+  },
+  "line:weekend-plans:4": {
+    "file": "line--weekend-plans--4.m4a",
+    "text": "Mga alas-dos. Susunduin ka namin.",
+    "score": 0.95,
+    "quality": "ok",
+    "heard": "Maalas dos. | Susunduin ka namin."
+  },
+  "line:weekend-plans:5": {
+    "file": "line--weekend-plans--5.m4a",
+    "text": "Game! Magre-review muna ako sa umaga. Text mo lang ako.",
+    "score": 0.92,
+    "quality": "ok",
+    "heard": "Gane, mag-review muna ako sa umaga. | Test mo lang ako."
+  },
+  "line:thank-you-mom:0": {
+    "file": "line--thank-you-mom--0.m4a",
+    "text": "Ma, salamat po sa lahat.",
+    "score": 1.0,
+    "quality": "ok",
+    "heard": "Masalamat po sa lahat."
+  },
+  "line:thank-you-mom:1": {
+    "file": "line--thank-you-mom--1.m4a",
+    "text": "Bakit bigla kang nagpapasalamat?",
+    "score": 0.94,
+    "quality": "ok",
+    "heard": "Akit bigla ka nagpapa salamat."
+  },
+  "line:thank-you-mom:2": {
+    "file": "line--thank-you-mom--2.m4a",
+    "text": "Wala lang po. Alam ko pong lagi kayong pagod para sa amin.",
+    "score": 0.9,
+    "quality": "ok",
+    "heard": "Bala lang po! | Alam ko pong lagi kayong pagod para sa aming."
+  },
+  "line:thank-you-mom:3": {
+    "file": "line--thank-you-mom--3.m4a",
+    "text": "Ay, anak. Para sa inyo naman lahat ’to.",
+    "score": 0.91,
+    "quality": "ok",
+    "heard": "Ayana. | para sa inyo naman lahat, tato."
+  },
+  "line:thank-you-mom:4": {
+    "file": "line--thank-you-mom--4.m4a",
+    "text": "Mahal na mahal ko po kayo.",
+    "score": 1.0,
+    "quality": "ok",
+    "heard": "Mahal na mahal ko po kayo."
+  },
+  "line:thank-you-mom:5": {
+    "file": "line--thank-you-mom--5.m4a",
+    "text": "Mahal din kita, anak.",
+    "score": 0.75,
+    "quality": "ok",
+    "heard": "Mahal din kita. | Na, na."
+  }
+}

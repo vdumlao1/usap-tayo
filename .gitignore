@@ -1,0 +1,7 @@
+node_modules
+dist
+*.local
+.DS_Store
+
+# Local Python environment + model cache for scripts/generate_tts.py
+.venv-tts
