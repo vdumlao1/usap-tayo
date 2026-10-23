@@ -727,6 +727,20 @@ export const PHRASES = [
     usage: 'From English “get.” “Gets mo?” = Do you get it? Casual — with elders, “Naintindihan ko na po” is more respectful.',
     register: 'taglish',
   },
+
+  // Added with `npm run add-phrase` on 2026-10-23 (drafted by Claude, checked by code).
+  {
+    id: 'magkano-po-ito',
+    category: 'questions',
+    tagalog: 'Magkano po ito?',
+    english: 'How much does this cost?',
+    literal: 'How much (po) this?',
+    pronunciation: 'mahg-KAH-noh poh ee-TOH',
+    example: { tagalog: 'Ate, magkano po ito? Gusto ko po \'yung pula.', english: 'Miss, how much is this? I\'d like the red one.' },
+    usage: 'Hold up or point at the item and ask the shop staff. Keep "po" when you\'re talking to vendors or older people. When you\'re shopping with family, you can drop "po" and say "Magkano \'to?" to a sibling or cousin.',
+    register: 'respectful',
+    verify: 'AI draft (Claude). In casual speech "ito" often gets shortened to "\'to," so you\'ll hear "Magkano po \'to?" a lot. It\'s also common to call a young female vendor "Ate" or a male one "Kuya," but whether people do that depends on the shop and the region.',
+  },
 ];
 
 export function getPhrase(id) {

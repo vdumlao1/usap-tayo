@@ -726,5 +726,12 @@
     "score": 0.75,
     "quality": "ok",
     "heard": "Mahal din kita. | Na, na."
+  },
+  "phrase:magkano-po-ito": {
+    "file": "phrase--magkano-po-ito.m4a",
+    "text": "Magkano po ito?",
+    "score": 0.96,
+    "quality": "ok",
+    "heard": "Magkano po hito?"
   }
 }
