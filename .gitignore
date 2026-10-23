@@ -5,3 +5,6 @@ dist
 
 # Local Python environment + model cache for scripts/generate_tts.py
 .venv-tts
+
+# Last raw reply from `npm run add-phrase` (for debugging)
+scripts/.add-phrase-last.json

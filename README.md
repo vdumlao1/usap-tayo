@@ -12,6 +12,7 @@ Usap Tayo helps build a foundation. It won't make anyone fluent on its own; the 
 
 | Area | What it does |
 | --- | --- |
+| **Add phrases with Claude** | `npm run add-phrase -- "…"` drafts a new phrase with Claude Code, checks it in code, and adds it after you approve. See [Adding phrases with Claude](#adding-phrases-with-claude). |
 | **Profile** | Optional name and "who are you learning for?" (asked once on first visit, editable anytime). Used for greetings like *Magandang hapon, Ana!*, a personalized *Ako po si Ana.* on the introduce-yourself phrase, and occasional motivation messages. The page also has a learning summary, daily goal, and reset (which keeps your profile). Saved only in this browser; no account. |
 | **Home dashboard** | Time-of-day greeting in Tagalog (with your name), rotating motivational message, daily practice goal (progress ring), day streak, phrases known/practiced, review count, quiz average, phrase of the day, and quick links to every section. |
 | **Phrase library** | 56 phrases across 9 categories (greetings, family, everyday, questions, food, feelings, household, slang, Taglish). Each has the Tagalog, English meaning, literal meaning where it helps, a pronunciation guide, an example sentence, usage notes, and a register label (Respectful / Neutral / Casual / Slang / Taglish). Search works in Tagalog or English. Filter by category or by progress status (new / review / known). |
@@ -115,6 +116,44 @@ The full run takes roughly 20–30 minutes; `--only phrase:salamat,phrase:ingat`
 
 Whisper transcribes every take and the closest match to the real text wins. `manifest.json` records each clip's `score`, what Whisper `heard`, and a `quality` of `ok` or `low`. **Low clips (score < 0.70) aren't played in the app.** Whisper is only a rough judge, so if a clip still sounds wrong to you, record a family member for that phrase.
 
+## Adding phrases with Claude
+
+When you hear something at home that you want to learn, a script asks Claude to draft a full phrase entry, checks it, and adds it once you approve:
+
+```bash
+npm run add-phrase -- "Where have you been?" --context "what Lola asks when I get home late"
+```
+
+Options: `--context "…"` (who you'd say it to, or when), `--dry-run` (show the draft without changing anything), `--yes` (skip the approval question).
+
+### What the model does, and what the code checks
+
+The model's part is deliberately small: **one** headless Claude Code call (`claude -p`) per phrase. Its tools are disabled (`--tools ""`), so it can only write an answer and can't touch your files.
+
+| Step | Who | What |
+| --- | --- | --- |
+| 1. Draft | **Model** (Claude, via `claude -p`) | Writes the Tagalog, English meaning, literal meaning, pronunciation guide, example, usage note, register, and category, plus anything it's unsure about. `--json-schema` forces the answer into this exact shape. |
+| 2. Check | **Code** (`validateDraft` in `src/lib/phraseDraft.js`) | Required fields present; lengths within limits; the Tagalog is one phrase (no `( ) / ;` alternatives or digits); the pronunciation uses the app's format with a CAPS stressed syllable; the category and register are real ones; not a duplicate of an existing phrase; a unique id is generated. **Every draft is flagged "Check with family"**, with the model's own uncertainty note included. |
+| 3. Approve | **You** | The draft is shown in full. Nothing is written unless you answer `y`. |
+| 4. Save | **Code** (`scripts/add-phrase.mjs`) | Inserts the entry into `src/data/phrases.js`, generates its audio (if `.venv-tts` is set up), and runs all the tests. **If any test fails, `phrases.js` is restored.** |
+
+**When something goes wrong, you can tell whose fault it was:**
+- **A rejected draft** ("The model's draft was rejected by the checks: …") means the model's answer broke a rule, and the reason is printed.
+- **A crash or stack trace** means a bug in the code.
+- **Wrong Tagalog that passes the checks** means the model was wrong in a way code can't detect. That's why every entry is flagged for a native speaker to check.
+
+The raw reply from the last run is saved to `scripts/.add-phrase-last.json` (ignored by Git) for debugging.
+
+**Real examples from testing:**
+- The model once returned `"Salamat (more polite/formal: Salamat po…)"` in the Tagalog field; the "one phrase" rule rejects that.
+- A first draft's usage note was 449 characters and was rejected (limit 400). After that, the limits were added to the JSON schema so the model knows them up front.
+- Two runs of the same request gave different stress for *galing* ("gah-LEENG" vs "GAH-leeng"). The checks can't catch that, which is why every entry is flagged.
+
+### Setup and cost
+
+- Needs **Claude Code** installed and signed in with your Claude account (`claude --version` should work). The script also finds it in `~/.local/bin` if that folder isn't on your PATH.
+- It runs on your Claude Code access, so there's no API key and no separate API bill. Each phrase is one short request.
+
 ## Testing
 
 ### Automated
@@ -130,6 +169,7 @@ There are 110 unit tests in 7 files:
 - `src/lib/search.test.js`: accent/punctuation-insensitive search, word-start matching, and category/status filters
 - `src/lib/speech.test.js`: Tagalog voice detection and fallback-voice priority
 - `src/lib/recordings.test.js`: recording keys and microphone error messages
+- `src/lib/phraseDraft.test.js`: checking model drafts (rejecting bad shapes, alternatives, duplicates, bad pronunciation format), id generation, and safely inserting into `phrases.js`
 - `src/data/data.test.js`: content integrity for every phrase and conversation
 - `src/data/audio.test.js`: every phrase and line has generated audio, the audio matches the current text, and the files exist
 

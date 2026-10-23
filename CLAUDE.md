@@ -19,6 +19,9 @@ Personal Tagalog-learning web app (React 19 + Vite, plain CSS). No backend; prog
 - Profile lives in `progress.profile` (`name`, `learningFor`, `welcomed`) and is updated via `updateProfile()`. Reset keeps profile and settings. No accounts: profile is local only.
 - `src/styles.css`: one stylesheet. Colour tokens at the top. Mobile nav becomes a fixed bottom bar at ≤860px.
 
+## Model inside the app (Artifact 3)
+- `npm run add-phrase -- "…"` (`scripts/add-phrase.mjs`) calls `claude -p` once with tools disabled and `--json-schema` (`DRAFT_SCHEMA`). The model only drafts; `validateDraft()` in `src/lib/phraseDraft.js` checks everything mechanical, and every draft gets a `verify` flag. Keep this split: new checks go in `validateDraft` (with tests), not in the prompt alone.
+
 ## Rules
 - The owner handles ALL git/GitHub operations. Do not run git commands, commit, push, or deploy.
 - `DEVELOPMENT_LOG.md` is kept by Claude Code at the owner's request: add dated, factual entries for notable changes. Never invent history or write the owner's personal reflections.

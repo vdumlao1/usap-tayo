@@ -9,7 +9,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "add-phrase": "node scripts/add-phrase.mjs"
   },
   "dependencies": {
     "react": "^19.3.1",

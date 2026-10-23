@@ -91,3 +91,38 @@ The owner asked whether their dad's voice could be cloned for all the audio. The
 - The generated audio is still a computer voice: questions don't rise in pitch, and some stress may be off. Whisper is only a rough judge.
 - Progress, profile and recordings are stored per browser and aren't synced or backed up.
 - See the README's "Known limitations" section for the full list.
+
+---
+
+# Artifact 3: a model inside the app
+
+## The plan (2026-10-23)
+
+Artifact 3 requires a model doing real work every time it runs, with a small, clear model part. The owner chose to extend Usap Tayo. Options considered:
+- **A Claude API chat partner in the app:** rejected, because API calls bill separately and aren't covered by the class's Claude Code access.
+- **A Claude Code skill:** viable, but the line between model and code is blurrier.
+- **A headless `claude -p` pipeline:** chosen. It runs on the existing access, and the model's job is a single input → output step.
+
+**Feature:** `npm run add-phrase -- "English phrase" --context "…"`. Claude drafts a full phrase entry; code checks it; the owner approves; code saves it, generates audio, and runs the tests.
+
+## Setup
+
+- Claude Code's command-line tool wasn't installed (the owner had been using the desktop app). The owner installed it with the official installer, added `~/.local/bin` to their PATH, and signed in.
+- Signing in failed twice when `claude` was run from the chat's command box, which can't take keyboard input. It worked in a real terminal tab.
+
+## Built
+
+- `src/lib/phraseDraft.js` (pure functions, unit-tested): the JSON schema sent to the model, the prompt, `validateDraft()`, id generation, and safe insertion into `phrases.js`.
+- `scripts/add-phrase.mjs`: runs `claude -p` with tools disabled and `--json-schema`, outside the repo so the project's CLAUDE.md isn't loaded as context. Saves the raw reply for debugging, then asks for approval, writes the file, generates audio, runs the tests, and restores `phrases.js` if any test fails.
+- The README and CLAUDE.md now document exactly what the model does vs. what the code checks.
+
+## What testing showed
+
+1. **A probe call** asking for "thank you" returned `"Salamat (more polite/formal: Salamat po…)"` in a single field. This led to the "one phrase only" check.
+2. **The first dry run was rejected by the checks:** the usage note was 449 characters (limit 400). The draft itself was good; the model had simply never been told the limit. Fix: `maxLength` added to the JSON schema, and the limit stated in the prompt.
+3. **Second dry run:** passed. Notably, the model gave a different stress for *galing* than in the first run (GAH-leeng vs gah-LEENG), and noted it was unsure. Mechanical checks can't catch this kind of error, so every model-drafted phrase is flagged "Check with family".
+4. **A full run in a throwaway copy of the project** first failed the tests, because the unit tests used the real phrase list and "Saan ka galing?" was now a duplicate. The safety net worked: `phrases.js` was restored automatically. The tests now use a fixed sample library. The rerun passed: the phrase was added, its audio was generated (Whisper heard "Sankagaling", score 0.96), and all 126 tests passed.
+5. **Answering "no" at the approval step** left `phrases.js` unchanged.
+6. The owner's real `phrases.js` was not modified during testing, so the first real phrase is the owner's to add.
+
+**State:** 125 tests pass (8 files); the build works.
