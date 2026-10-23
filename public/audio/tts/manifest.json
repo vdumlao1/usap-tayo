@@ -733,5 +733,12 @@
     "score": 0.96,
     "quality": "ok",
     "heard": "Magkano po hito?"
+  },
+  "phrase:okay-ka-lang": {
+    "file": "phrase--okay-ka-lang.m4a",
+    "text": "Okay ka lang?",
+    "score": 1.0,
+    "quality": "ok",
+    "heard": "Okay ka lang."
   }
 }

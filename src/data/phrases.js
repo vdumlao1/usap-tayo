@@ -741,6 +741,20 @@ export const PHRASES = [
     register: 'respectful',
     verify: 'AI draft (Claude). In casual speech "ito" often gets shortened to "\'to," so you\'ll hear "Magkano po \'to?" a lot. It\'s also common to call a young female vendor "Ate" or a male one "Kuya," but whether people do that depends on the shop and the region.',
   },
+
+  // Added with `npm run add-phrase` on 2026-10-23 (drafted by Claude, checked by code).
+  {
+    id: 'okay-ka-lang',
+    category: 'feelings',
+    tagalog: 'Okay ka lang?',
+    english: 'Are you okay?',
+    literal: 'Okay you just?',
+    pronunciation: 'oh-KAY kah lahng',
+    example: { tagalog: 'Uy, okay ka lang? Parang malungkot ka.', english: 'Hey, are you okay? You seem sad.' },
+    usage: 'Gentle, everyday way to check on a sibling, cousin, or friend who looks upset. With parents, grandparents, or titos/titas, say "Okay lang po ba kayo?" to stay respectful.',
+    register: 'casual',
+    verify: 'AI draft (Claude). "Okay" is an English loanword, but it\'s so common here that I marked this casual rather than taglish. "Ayos ka lang?" is a common all-Tagalog version that means the same thing.',
+  },
 ];
 
 export function getPhrase(id) {

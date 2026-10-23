@@ -126,3 +126,7 @@ Artifact 3 requires a model doing real work every time it runs, with a small, cl
 6. The owner's real `phrases.js` was not modified during testing, so the first real phrase is the owner's to add.
 
 **State:** 125 tests pass (8 files); the build works.
+
+## First real use (2026-10-23)
+
+The owner ran `npm run add-phrase` and approved Claude's draft: **"Magkano po ito?"** ("How much does this cost?"). It was added to Questions & Answers, flagged "Check with family". Claude's uncertainty note says "ito" is often shortened to "'to". Its audio was generated automatically (Whisper heard "Magkano po hito?", score 0.96), and the tests passed. The owner committed it separately from the pipeline code.
